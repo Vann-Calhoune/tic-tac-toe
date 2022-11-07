@@ -29,7 +29,7 @@ import './index.css';
          if(this.state.xIsNext === true) {
             squares[i] = 'X';
         } else {
-            return 'O';
+            squares[i] = 'O';
         }
         this.setState({squares: squares,
         xIsNext: !this.state.xIsNext,
